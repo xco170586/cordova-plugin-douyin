@@ -1,0 +1,11 @@
+Douyin.share({
+    message: {
+        title: "Hi, there",
+        imageUrls: ["www/img/thumbnail.png","www/img/thumbnail.png"],
+    },
+    shareType: 0
+}, function () {
+    alert("Success");
+}, function (reason) {
+    alert("Failed: " + reason);
+});
